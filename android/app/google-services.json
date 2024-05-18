@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "402691407134",
+    "project_id": "saasakitech-7486e",
+    "storage_bucket": "saasakitech-7486e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402691407134:android:5f58f6ccd7482521cd5d0f",
+        "android_client_info": {
+          "package_name": "com.example.saasakitech_assignment_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwKHatgeA-mwlf1U0s0-ex2F0ZcGWYMp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
