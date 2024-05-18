@@ -1,4 +1,3 @@
-
 import 'dart:developer';
 
 import 'package:firebase_auth/firebase_auth.dart';
@@ -37,7 +36,7 @@ class _LoginScreenState extends State<LoginScreen> {
             context,
             MaterialPageRoute(
               builder: (context) => const UserPageList(),
-              settings: RouteSettings(arguments: 'Successfully logged in!'),
+              // settings: RouteSettings(arguments: 'Successfully logged in!'),
             ),
           );
         } else {

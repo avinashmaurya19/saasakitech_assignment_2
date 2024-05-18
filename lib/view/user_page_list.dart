@@ -17,18 +17,18 @@ class UserPageList extends StatefulWidget {
 
 class _UserPageListState extends State<UserPageList> {
   final NotificationService notificationService = NotificationService();
-  void didChangeDependencies() {
-    super.didChangeDependencies();
-    final successMessage =
-        ModalRoute.of(context)?.settings.arguments as String?;
-    if (successMessage != null) {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(successMessage)),
-        );
-      });
-    }
-  }
+  // void didChangeDependencies() {
+  //   super.didChangeDependencies();
+  //   final successMessage =
+  //       ModalRoute.of(context)?.settings.arguments as String?;
+  //   if (successMessage != null) {
+  //     WidgetsBinding.instance.addPostFrameCallback((_) {
+  //       ScaffoldMessenger.of(context).showSnackBar(
+  //         SnackBar(content: Text(successMessage)),
+  //       );
+  //     });
+  //   }
+  // }
 
   @override
   void initState() {
